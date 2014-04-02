@@ -1,0 +1,1 @@
+a=ARGV;b=a.dup;a.each{|d|puts"#{d}:#{b.delete(b.select{|s|s!=d}.sample)}"}
